@@ -4,7 +4,7 @@ It was originally imported from `django-cities`, due to the quantity limitation 
 
 How was the files created?
 
-The geonames database was imported
+The geonames database was imported (importing countries, regions, subregions and cities; postal codes and alternative names in the next opportunity)
 
 ```
 python manage.py cities --import=country,region,subregion,city
